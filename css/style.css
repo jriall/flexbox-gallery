@@ -1,3 +1,52 @@
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+body{
+    line-height:1;
+}
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:’’;
+    content:none;
+}
+
+body {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1240px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f6f6f6;
+}
+
+
 .gallery-filter {
     display: flex;
 }
@@ -22,8 +71,8 @@
 }
 
 .image-card {
-    padding: 2%;
-    flex: 1 16%;
+    padding: 0.5%;
+    flex: 1 19%;
 }
 
 .photo img {
@@ -38,17 +87,13 @@
 
 @media (max-width: 920px) {
     .image-card {
-        flex: 1 21%;
-    }
-    .photos .image-card:first-child,
-    .photos .image-card:nth-child(2) {
-        flex: 2 46%;
+        flex: 1 24%;
     }
 }
 
 @media (max-width: 600px) {
   .image-card {
-    flex: 1 46%;
+    flex: 1 49%;
   }
 }
 
