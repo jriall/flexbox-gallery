@@ -43,9 +43,23 @@ body {
   width: 90%;
   max-width: 1240px;
   font-family: 'Roboto', sans-serif;
-  background-color: #f6f6f6;
+  background-color: #6fbd8d;
+  color: black;
+}
+h1 {
+  font-size: 56px;
+  font: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  padding: 30px;
+  color: white;
 }
 
+h5 {
+  font-size: 20px;
+}
+
+h5, h6 {
+  margin-bottom: 10px;
+}
 
 .gallery-filter {
     display: flex;
@@ -58,21 +72,31 @@ body {
 .sort {
     display: flex;
     align-self: flex-end;
+    padding: 10px;
 }
 
 .gallery-sort {
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.gallery-sort label {
+  margin-bottom: 10px;
 }
 
 .photos {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .image-card {
     padding: 0.5%;
     flex: 1 19%;
+    background-color: white;
+    margin: 5px;
 }
 
 .photo img {
